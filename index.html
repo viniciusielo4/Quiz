@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz - Teste seus conhecimentos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <img src="./img/download.jpg" alt="Logo do Quiz">
+    </header>
+    <main>
+<div class="quiz-question">
+ <label for="pergunta1">Pergunta 1: Qual a capital do Brasil?</label>
+ <select id="pergunta1">
+ <option value="2">Selecione a resposta</option>
+ <option value="1">Brasília</option>
+ <option value="0">Rio de Janeiro</option>
+ <option value="0">São Paulo</option>
+            </select>
+</div>
+<div class="quiz-question">
+ <label for="pergunta2">Pergunta 2: Quem foi o primeiro presidente do Brasil?</label>
+ <select id="pergunta2">
+<option value="2">Selecione a resposta</option>
+<option value="1">Getúlio Vargas</option>
+ <option value="0">Juscelino Kubitschek</option>
+ <option value="0">Pedro Álvares Cabral</option>
+            </select>
+ </div>
+ <div class="quiz-question">
+ <label for="pergunta3">Pergunta 3: Em que ano o Brasil foi descoberto?</label>
+ <select id="pergunta3">
+ <option value="2">Selecione a resposta</option>
+ <option value="1">1500</option>
+ <option value="0">1808</option>
+ <option value="0">1889</option>
+            </select>
+        </div>
+        <button onclick="calcularPontuacao()">Calcular Pontuação</button>
+        <input type="text" id="pontuacao" >
+    </main>
+</div>
+<script src="./soma.js"></script>
+</body>
+</html>
